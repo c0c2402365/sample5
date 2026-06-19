@@ -84,7 +84,7 @@ Duplicated footnote reference[^second].
 Markdown 技法を利⽤し、画像を⼊れよう。
 
 ## Images
-![Gengar](https://pokemon.com)
+![Gengar](images.jpg)
 
 Markdown 技法を利⽤し、動画を⼊れよう。
 
