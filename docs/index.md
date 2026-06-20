@@ -1,19 +1,26 @@
 <style>
   body {
-    background: lightcyan; /* 背景色を薄い青緑にする */
-    width: 800px;         /* ページの横幅を800ピクセルに固定する */
-    margin: auto;         /* ページを中央寄せにする */
+    background: #f8f9fa;   /* 上品で薄いグレー */
+    width: 800px;
+    margin: 40px auto;    /* 上下に少し余白を持たせる */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* スタイリッシュなフォント */
   }
 
   h1 {
-    color: maroon;        /* 大見出し(h1)の色をマルーン（栗色）にする */
-    text-align: center;   /* 大見出しを中央寄せにする */
+    color: #212529;        /* 深みのあるダークグレー */
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 2px solid #e9ecef; /* 見出しの下にさりげない線を入れる */
+    padding-bottom: 10px;
   }
 
   p {
-    color: gray;          /* 本文(p)の文字色をグレーにする */
-    border: 1px solid gray; /* 本文の周りにグレーの枠線を引く */
-    padding: 10px;        /* 枠線の内側に10ピクセルの余白を作る */
+    color: #495057;
+    line-height: 1.6;     /* 行間を広げて読みやすく */
+    background: #ffffff;   /* 文字の背景を白にして浮かび上がらせる */
+    border: 1px solid #e3e6e8;
+    border-radius: 6px;   /* 角を少し丸める */
+    padding: 15px;
   }
 </style>
 ---
