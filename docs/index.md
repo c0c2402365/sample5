@@ -1,3 +1,21 @@
+<style>
+  body {
+    background: lightcyan; /* 背景色を薄い青緑にする */
+    width: 800px;         /* ページの横幅を800ピクセルに固定する */
+    margin: auto;         /* ページを中央寄せにする */
+  }
+
+  h1 {
+    color: maroon;        /* 大見出し(h1)の色をマルーン（栗色）にする */
+    text-align: center;   /* 大見出しを中央寄せにする */
+  }
+
+  p {
+    color: gray;          /* 本文(p)の文字色をグレーにする */
+    border: 1px solid gray; /* 本文の周りにグレーの枠線を引く */
+    padding: 10px;        /* 枠線の内側に10ピクセルの余白を作る */
+  }
+</style>
 ---
 # h1 Heading
 ## h2 Heading
